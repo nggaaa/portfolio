@@ -30,6 +30,9 @@
     "**/*.tsx",
     ".next/types/**/*.ts"
   ],
+  "paths": {
+      "@/*": ["./*"]
+    },
   "exclude": [
     "node_modules"
   ]
